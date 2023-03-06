@@ -1,0 +1,36 @@
+<div class="col-xs-12">
+    <div class="body" *ngFor = "let twt of tweets">
+        <header class="tweet-head">
+            <img src={{twt.profPic}} alt="">
+            <div class="tweet-name">
+                <h3>{{twt.profName}}</h3>
+                <p>24 August at 20:43</p>
+            </div>
+        </header>
+
+        <p class="bio">{{twt.bio}}</p>
+
+        <img class="tweet-photo" src={{twt.imagePath}} alt="">
+
+        <div class="tweet-stats">
+            <p>{{twt.comments}} Comments</p>
+            <p>{{twt.retweets}} Retweets</p>
+            <p>{{twt.saved}} Saved</p>
+        </div>
+
+        <div class="tweet-buttons" role="group" aria-label="Default button group">
+            <button type="button" class="btn btn-outline-dark">Comment</button>
+            <button type="button" class="btn btn-outline-dark">Retweet</button>
+            <button type="button" class="btn btn-outline-dark">Like</button>
+            <button type="button" class="btn btn-outline-dark">Save</button>
+        </div>
+
+        <div class="comment tweet-head">
+            <img src="https://images.squarespace-cdn.com/content/v1/5aee389b3c3a531e6245ae76/1533556659531-R0B8DV9CIUYTEWBWWOZ7/Bewerbungsfotos-Friedrichshain01.jpg" alt="">
+            <input class="form-control" type="text" placeholder="Tweet your reply">
+        </div>
+    </div>
+        
+</div>
+
+    

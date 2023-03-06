@@ -1,0 +1,60 @@
+.col-7{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.prof-stuff{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.prof-top{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.prof-bio{
+    margin-top: 10px;
+}
+
+.prof-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.prof-details span{
+    font-weight: bolder;
+}
+
+.prof-details p,h5{
+    margin: auto 20px;
+    
+}
+
+.prof-top img{
+    border-radius: 5px;
+    height: 70px;
+    width: 70px;
+}
+
+.btn{
+    display: flex;
+    height: 100%;
+    
+}
+
+fa-icon{
+    margin-right: 10px;
+}
+
+.sug-pic{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

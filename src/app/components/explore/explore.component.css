@@ -1,0 +1,28 @@
+.tweet-explore{
+    margin: 20px auto;
+    max-width: 80vw;
+    display: flex;
+}
+
+app-left-sidebar{
+    width: 30%;
+}
+
+.explore-right{
+    width: 70%;
+    margin-left:20px;
+}
+
+app-tweets{
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.form-control-lg{
+    border:0;
+    width: 100%;
+    /* color: lightgray; */
+    margin-bottom: 20px;
+}
+

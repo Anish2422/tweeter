@@ -1,11 +1,17 @@
+.tweet-body{
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+}
+
+
 app-left-sidebar{
     width: 30%;
 }
 
 app-tweets{
     width: 70%;
-    background-color: white;
     margin-left:20px;
     border-radius: 15px;
-    padding: 20px 0;
+
 }

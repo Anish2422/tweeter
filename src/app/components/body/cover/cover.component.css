@@ -1,0 +1,74 @@
+.cover-photo{
+    width: 100%;
+    max-height: 40vh;
+    overflow: hidden ;
+}
+
+
+.banner{
+    border-radius: 15px;
+    background-color: white;
+    max-width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    height: 150px;
+    transform: translateY(-50px);
+}
+
+
+.banner img{
+    border: 2px double white;
+    border-radius: 15px;
+    margin: 0 20px;
+    height: 200px;
+    width: 200px;
+    transform:translateY(-100px);
+    
+}
+.prof-stuff{
+    width: 100%;
+}
+
+.prof-top{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.prof-bio{
+    text-align: start;
+    margin: auto 20px;
+}
+
+.prof-details{
+    width: 100%;
+    display: flex;
+}
+
+.prof-details span{
+    font-weight: bolder;
+}
+
+.prof-details p,h3{
+    margin: auto 20px;
+    text-align: center;
+}
+
+.banner button{
+    display: flex;
+    margin: 10px;
+}
+
+.banner fa-icon{
+    margin-right: 10px;
+}
+
+.prof-bio{
+    margin-top: 20px;
+}
+
+.prof-bio p{
+    font-size: large;
+    color: gray;
+}

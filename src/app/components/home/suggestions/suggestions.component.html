@@ -1,0 +1,24 @@
+<div class="col-7">
+    <h6>Who to follow</h6>
+    <div class="suggestions" *ngFor="let sug of suggestions">
+        <hr>
+        <div class="prof-stuff">
+            <div class="prof-top">
+                <img src={{sug.profPic}} alt="prof">
+                <div class="prof-details">
+                    <h5>{{sug.name}}</h5>
+                    <p><span>{{sug.followers}}</span> Following</p>
+                </div>
+                <button class="btn btn-primary">
+                    <fa-icon [icon]="faPersonCirclePlus"></fa-icon>
+                    Follow
+                </button>
+            </div>
+                
+            <div class="prof-bio">
+                <p>{{sug.bio}}</p>
+            </div>
+        </div>
+        <img class="sug-pic" src={{sug.pic}} alt="">
+    </div>
+</div>
